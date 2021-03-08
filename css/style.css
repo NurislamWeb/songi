@@ -1,0 +1,987 @@
+/***************** common css start *********************/
+*{
+    margin: 0;
+    padding: 0
+}
+
+ol,ul{
+  
+    list-style: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+/***************** common css end ***********************/
+
+
+
+
+
+
+/***************** header-top css start *********************/
+nav ul li a{
+    margin-left: 15px;
+    background: #405E8F;
+    color: #fff !important;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 2px;
+    transition: .4s;
+}
+
+nav ul li a:hover{
+    background: transparent;
+    border: 1px solid #405E8F !important;
+    color: #405E8F !important;
+}
+/***************** header-top css end ***********************/
+
+
+
+
+/***************** add post css start ***********************/
+#add-post{
+    padding: 20px 0;
+    border-bottom: 2px solid #405E8F;
+}
+
+#add-post p{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold; 
+}
+
+#add-post form input{
+    width: 85%;
+    border: 1px solid #405E8F;
+}
+
+#add-post form button{
+    background: red;
+    border: 0;
+    color: #fff;
+    padding: 7px 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#add-post .post{
+    text-align: right;
+    padding-top: 35px;
+}
+
+#add-post .post a{
+    padding: 10px 35px;
+    background: #405E8F;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 2px;
+    border: 1px solid #405E8F;
+    transition: .4s;
+}
+
+#add-post .post a:hover{
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;
+}
+/***************** add post css end *************************/
+
+
+
+
+
+/***************** location part css start ***********************/
+#location-part{
+    width: 100%;
+    padding: 20px 0;
+}
+
+#location-part .heading{
+    width: 100%;
+    background: #405E8F;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 3px;  
+}
+
+
+#location-part .location{
+    width: 100%;
+    display: flex;
+}
+
+
+#location-part .location .city{
+    width: 33%;
+}
+
+#location-part .location .city p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+#location-part .location .city a{
+    display: block;
+    color: #b59a28;
+    font-size: 20px;
+    transition: .4s;
+    padding-left: 5px;
+}
+
+#location-part .location .city a:hover{
+    background: #405E8F;
+    color: #fff;
+}
+
+/***************** location part css end *************************/
+
+
+
+
+
+
+/***************** footer part css start ***********************/
+#footer{
+    padding-top: 20px;
+    border-top: 2px solid #405E8F;
+    background: #C5C3C4;
+    
+}
+
+#footer .menu{
+    text-align: center;  
+}
+
+#footer .menu a{
+    padding-left: 15px;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    transition: .4S;
+}
+
+#footer .menu a:hover{
+    color: #405E8F;
+}
+
+#footer .menu-end{
+    padding: 15px 0;
+    text-align: center;
+    color: #405E8F;
+    
+}
+/***************** footer part css end *************************/
+
+
+
+
+
+
+
+/***************** about part css start************************/
+#about{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#about h2{
+    font-size: 20px;
+    font-weight: 800;
+    color: #000;
+}
+
+
+#about h5{
+    font-size: 16;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 0;
+}
+
+#about p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    padding: 10px 0;
+}
+
+#about h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+
+#about .add{
+    padding-top: 10px;
+}
+
+#about .add span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+
+#footer .icon{
+    padding: 15px 0;
+    text-align: center;
+}
+
+#footer .icon i{
+    width: 30px;
+    height: 30px;
+    background: #405E8F;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+#about  ul{
+    padding-left: 20px;
+}
+
+#about  ul li{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+/***************** about part css end *************************/
+
+
+
+
+
+
+/***************** signup/login part css start ***********************/
+#signup{
+    padding: 50px 0;
+    text-align: center
+}
+
+#signup .sign{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#signup .sign .box{
+    padding: 50px 140px;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+#signup .sign .box h3{
+    margin-bottom: 20px;
+}
+
+#signup .sign .box a{
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/***************** signup/login part css end *************************/
+
+
+
+
+/***************** buy-credit part css start *************************/
+#credit{
+    padding: 50px 0; 
+}
+
+#credit .balance{
+    padding: 10px 20px;
+    border: 1px solid #4DAE51;
+    color: #4DAE51;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#credit .mail{
+    text-align: right;
+    color: #000;
+    font-weight: 600;
+}
+
+#credit .menubar{
+    width: 100%;
+    margin-top: 20px;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    color: #fff;
+    padding-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+}
+
+#credit .menubar .menu{
+    width: 80%;
+}
+
+#credit .menubar .menu ul{
+    padding: 10px 20px;
+    padding-top: 5px;
+}
+
+#credit .menubar .menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+    
+}
+
+#credit .menubar .butt{
+    text-align: right;
+    width: 20%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+#credit .menubar .butt .buy{
+    background: red;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 3px;
+}
+
+#credit .main{
+    padding: 50px 20px;
+    border: 2px solid #f1f1f1;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+#credit .main h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    background: #FFFAEA;
+    border: 1px solid red;
+    padding: 10px 20px;
+}
+
+#credit .main ul{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#credit .main ul li i{
+    font-size: 7px;     
+}
+
+#credit .main .bitcoin{
+    width: 25%;
+    margin-top: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
+    padding-bottom: 30px;
+}
+
+#credit .main .bitcoin h6{
+    background: #F5F5F5;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+#credit .main .bitcoin p{
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+#credit .main .bitcoin .batt{
+    width: 95%;
+    text-align: left;
+    margin-left: 5px;
+    background: #fff;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#credit .main .bitcoin a{
+    margin-left: 5px;
+    padding: 7px 20px;
+    background: #286090;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/***************** buy-credit part css end ***************************/
+
+
+
+
+
+
+/***************** maneg-ads part css start *************************/
+#credit .maneg{
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+#credit .maneg ul{
+    background: #f1f1f1;
+    padding: 5px 10px;
+}
+
+#credit .maneg ul li{
+    display: inline-block;
+    font-weight: 500;
+    color: #000;
+    font-size: 14px;
+    
+}
+
+#credit .maneg ul .date{
+    width: 120px;
+}
+
+/*
+#credit .maneg ul .action{
+    width: 200px;
+}
+*/
+
+#credit .maneg ul .title{
+    width: 250px;
+}
+
+#credit .maneg .post{
+    padding: 0 10px;
+    background: #fff;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#credit .maneg .post li{
+    color: #211f1f;
+    font-weight: 400;
+}
+
+#credit .maneg .post li a{
+    color: #fff;
+    padding: 3px 5px;
+    margin-left: 5px;
+}
+
+#credit .maneg .post li .edit{
+    background: #000;
+}
+
+#credit .maneg .post li .view{
+    background: #405E8F;
+}
+
+#credit .maneg .post li .renew{
+    background: #4CAF50;
+}
+
+#credit .maneg .post li .del{
+    background: #C9302C;
+}
+
+#credit .maneg .post .date{
+    width: 120px;
+}
+
+#credit .maneg .post .title{
+    width: 250px;
+}
+/***************** maneg-ads part css end ***************************/
+
+
+
+
+/***************** add-post part css start *************************/
+#add-post .add{
+    padding: 50px 0;
+}
+
+#add-post .add ul{
+    padding-top: 10px;
+}
+
+#add-post .add ul li{
+    margin-bottom: 1px;
+}
+
+#add-post .add ul li i{
+    font-size: 5px;
+}
+
+#add-post .add ul li .btn{
+    width: 100%;
+    text-align: left;
+    background: #AFBED8;
+    border: #AFBED8;
+}
+
+#add-post .add ul li .btn:active{
+    border: #AFBED8;
+}
+
+#add-post .add ul li .btn-1{
+    width: 100%;
+    text-align: left;
+    background: #E3E9F2;
+    border: #AFBED8;
+    color: #000;
+}
+
+#add-post .add ul li .btn-sub{
+    margin-left: 10px;
+    width: 99%;
+    padding: 0;
+    background: #fff;
+}
+
+#add-post .add ul li .btn-sub ul li{
+    display: inline-block;
+    width: 25%;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#add-post .add ul li .btn-sub ul li a{
+    display: block;
+}
+
+#add-post .add ul li .btn-sub ul li a i{
+    font-size: 5px;
+    color: #000;
+}
+
+#add-post .add .items{
+    width: 100%;
+}
+
+#add-post .add .items ul li{
+    display: inline-block;
+    width: 25%;
+    
+}
+
+#add-post .add .items ul li a{
+    display: block;
+}
+
+#add-post .add .items li a i{
+    color: #000;
+    padding-right: 10px;
+}
+
+/***************** add-post part css end ***************************/
+
+
+
+
+/***************** write add step-1  part css start *************************/
+#step-1{
+    padding: 50px 0;
+}
+
+#step-1 .title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#step-1 .title span{
+    background: #FFFFB9;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+
+#step-1 .step-1{
+    background: #777777;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+#step-1 .step-off{
+    background: #CCCCCC;
+}
+
+#step-1 .text{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+#step-1 .post-name{
+    width: 100%;
+    background: #FFFFB9;
+}
+
+#step-1 .description{
+    width: 100%;
+    height: 150px;
+}
+
+#step-1 .age{
+    width: 100px;
+}
+
+#step-1 .location{
+    width: 280px;
+}
+
+#step-1 .mail{
+    background: transparent;
+    width: 280px;
+}
+
+#step-1 .button{
+    background: #405E8F;
+    border: 0;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/***************** write add step-1  part css end ***************************/
+
+
+
+
+/***************** preview add step-2  part css start ***************************/
+#step-1 .edit-ad{
+    display: block;
+    margin-top: 20px;
+    background: #405E8F;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    width: 93px;
+}
+
+#step-1 .place-ad{
+    display: block;
+    margin-top: 20px;
+    background: #405E8F;
+    padding: 5px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 10px;
+    width: 141px;
+}
+
+#step-1 .post-title{
+    color: #000;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+#step-1 .mail{
+    background: #4285F4;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+#step-1 .phone{
+    background: #33B5E5;
+    padding: 3px 10px;
+    color: #fff;
+}
+
+#step-1 .post-details{
+    padding: 20px 0;
+}
+
+#step-1 .gallery-box{
+    width: 100%;
+    background: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+#step-1 .gallery-box .gallery{
+    width: 50%;
+    background: pink;
+}
+
+#step-1 .gallery-box .gallery img{
+    width: 100%;
+    height: 200px;
+}
+
+#step-1 ul li i{
+    font-size: 7px;
+}
+
+#step-1 ul li p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+#step-1 ul li p span{
+    font-size: 13px;
+    font-weight: 400;
+}
+/***************** preview add step-2  part css end ***************************/
+
+
+
+/***************** all done step-3  part css start **************************/
+#step-1 .message{
+    padding: 20px;
+    background: #DFF0D8;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#step-1 .message p{
+    color: #449D44;
+    margin-bottom: 20px;
+}
+
+#step-1 .message a{
+    padding: 10px 20px;
+    background: #449D44;
+    color: #fff;
+    border-radius: 5px;
+}
+/***************** all done step-3  part css end ***************************/
+
+
+
+
+
+/***************** post categories  part css start **************************/
+#categories{
+    padding: 50px;
+}
+
+#categories .cate h5{
+    font-size: 16px;
+    background: #506FA3;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#categories .cate a{
+    display: block;
+    padding-left: 15px;
+    color: #000;
+}
+
+#categories .details{
+    background: #E3E9F2;
+    padding: 20px 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+#categories .details p{
+    color: #000;
+    padding: 5px;
+}
+
+#categories .details p span{
+    font-weight: 600;
+}
+/***************** post categories  part css end ***************************/
+
+
+
+
+/***************** disclaimer  part css start *************************/
+#disclaimer{
+    padding: 50px 0;
+}
+
+#disclaimer h4{
+    font-weight: 600;
+    color: #000;
+}
+
+#disclaimer p{
+    padding-top: 20px;
+    color: #000;
+}
+
+#disclaimer p span{
+    font-weight: 600;
+}
+
+#disclaimer .terms{
+    padding-bottom: 40px;
+}
+
+#disclaimer .agree{
+    margin-left: 10px;
+    background: #405E8F;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#disclaimer .exit{
+    margin-left: 10px;
+    background: #405E8F;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+/***************** disclaimer  part css end ***************************/
+
+
+
+
+/***************** all-post  part css start *************************/
+#all-post{
+    padding: 50px;
+}
+
+#all-post .top{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0F9D58;
+    transition: .4s;
+}
+
+#all-post .top:hover{
+    color: #000;
+}
+
+#all-post .date{
+    background: #F5F5F5;
+    color: #000;
+    padding: 2px 10px;
+}
+
+#all-post .post{
+    padding-bottom: 10px;
+}
+
+#all-post p{
+    margin: 20px 0;
+}
+
+#all-post .post a{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+#all-post .post a:hover{
+    color: red;
+}
+
+#all-post .post a i{
+    font-size: 20px;
+}
+
+.page-item:last-child .page-link{
+    color: red !important;
+}
+
+.page-link{
+    color: #007bff !important;
+}
+/***************** all-post  part css end ***************************/
+
+
+
+
+
+
+/***************** view add  part css start *************************/
+.report{
+    background: red;
+    padding: 5px 30px;
+    color: #fff;
+}
+
+.alert{
+    background: #F7E170;
+    margin-top: 50px;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.alert .scam{
+    color: red;
+    font-weight: 600;
+}
+
+.alert .warning{
+    color: red;
+}
+/***************** view add  part css end ***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
